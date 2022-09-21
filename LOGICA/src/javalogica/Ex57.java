@@ -21,7 +21,7 @@ public class Ex57 {
 		
 		carroNovo = custoFabrica + ( custoFabrica * percentualDistribuidor) + (custoFabrica * impostos);
 		
-		System.out.printf("O preço do carro novo | com impostos + distribuidora é %.2f", carroNovo);
+		System.out.printf("O preço do carro novo | com impostos + distribuidora é %.3f", carroNovo);
 		
 	}
 }
