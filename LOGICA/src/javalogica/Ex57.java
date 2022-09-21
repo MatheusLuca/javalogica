@@ -16,15 +16,12 @@ public class Ex57 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Calculo do custo Carro novo.");
+		System.out.println("insira valor do custo Fabric:");
 		custoFabrica = sc.nextDouble();
 		
 		carroNovo = custoFabrica + ( custoFabrica * percentualDistribuidor) + (custoFabrica * impostos);
 		
 		System.out.printf("O preço do carro novo | com impostos + distribuidora é %.3f", carroNovo);
-		
-		
-		
 		
 	}
 }
