@@ -6,34 +6,29 @@ public class EX11 {
 
 	public static void main(String[] args) {
 
-		// Converter um inteiro informado menor que 32 para sua representação em binário
-
-		int numeroFornecido, divisor = 2;
-		int resto;
-		int contador;
-
-		int vetorResultado[] = new int[4];
-
-		Scanner nf = new Scanner(System.in);
-
-		System.out.println("Insira um numero para menor que 32 para conversão em binário: ");
-		numeroFornecido = nf.nextInt();
-
-		if (numeroFornecido <= 32) {
-
-			if (numeroFornecido <= 32) {
-
-				for (resto = 0; resto < divisor; resto++) {
-
-					numeroFornecido = numeroFornecido / divisor;
-
-					resto = numeroFornecido % divisor;
-					System.out.println(resto);
-
-				}
-
+	
+		//Escreva um programa que imprima todos os n�meros de 1 at� 100, inclusive, e a soma
+		//de todos eles.
+		
+		
+		int contador, soma = 0;
+		
+		
+			for (contador = 0; contador <= 100; contador++) {
+				
+				
+				System.out.println(contador);
+				
+				// 0 + 0 = soma
+				
+				soma = soma + contador;
+				
+				
+				
 			}
-
-		}
+		
+			System.out.println(soma);
 	}
 }
+
+
